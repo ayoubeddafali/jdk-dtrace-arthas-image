@@ -1,5 +1,5 @@
 FROM ayoubensalem/jdk17-dtrace:latest
-ENV JAVA_HOME=/jdk
+ENV JAVA_HOME=/opt/jdk
 WORKDIR /app
 COPY entrypoint.sh .
 COPY wait-for-it.sh .
