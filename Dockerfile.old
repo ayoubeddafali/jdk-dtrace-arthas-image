@@ -1,4 +1,4 @@
-FROM ayoubensalem/jdk17-dtrace:latest
+FROM moule3053/jdk-docker-jstack
 ENV JAVA_HOME=/jdk
 WORKDIR /app
 COPY entrypoint.sh .
